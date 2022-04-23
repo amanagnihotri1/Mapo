@@ -1,0 +1,155 @@
+.App 
+{
+  text-align: center;
+ }
+*{
+  font-family: "Poppins",sans-serif;
+}
+ .card
+{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  min-height: 250px;
+  justify-content: space-around;
+}
+.buttonLogin
+{ 
+  margin: 10px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: green;
+  box-shadow:
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.045),
+  100px 100px 80px rgba(0, 0, 0, 0.09)
+;
+cursor: pointer;
+}
+.registerCancel
+{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}
+.buttonLogout
+{ margin: 10px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+  box-shadow:
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.045),
+  100px 100px 80px rgba(0, 0, 0, 0.09)
+;
+}
+.buttonRegister
+{
+  box-shadow:
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.045),
+  100px 100px 80px rgba(0, 0, 0, 0.09)
+;
+
+  margin: 10px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+}
+.buttons
+{
+  position:absolute;
+  top: 10px;
+  right: 10px;
+}
+.desc
+{
+  font-size:14px ;
+}
+label
+{
+  color:tomato;
+  font-size: 13px;
+  border-bottom: 1px solid tomato;
+  margin: 3px 0 0 0 ;
+  width: max-content;
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.star
+{
+  color: gold;
+}
+.username
+{
+  font-size: 14px;
+}
+.date
+{
+  font-size: 12px;
+}
+form
+{
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+input
+{
+  border: none;
+  border-bottom:1px solid black; 
+}
+input::placeholder,textarea::placeholder
+{
+  font-size: 12px;
+  color: grey;
+}
+.submitButton
+{
+  padding: 5px;
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

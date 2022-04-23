@@ -1,0 +1,52 @@
+.loginContainer
+{
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.loginBtn
+{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: slateblue;
+    cursor: pointer; 
+    transition: 300ms;
+}
+.loginBtn:hover
+{
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.014),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.02),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.025),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.03),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.036),
+  100px 100px 80px rgba(0, 0, 0, 0.05)
+;
+}
+.loginCancel
+{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}
+.failure
+{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+}
