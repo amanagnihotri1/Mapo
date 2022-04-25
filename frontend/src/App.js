@@ -36,7 +36,7 @@ function App()
     {
     try
     {
-    const res=await axios.get("/pins");
+    const res=await axios.get("/api/pins");
     setPins(res.data);
 }catch(err)
   {
@@ -74,7 +74,7 @@ const handleSubmit=async(e)=>{
  };
 try
 {
-const res= await axios.post("/pins",newPin);
+const res= await axios.post("/api/pins",newPin);
 console.log(res.data);
 setPins([...pins,res.data]);
 setNewPlace(null);

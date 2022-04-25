@@ -20,7 +20,7 @@ const handleSubmit= async(e)=>
     };
 try
 {
- await axios.post("/user/register",newUser);
+ await axios.post("/api/user/register",newUser);
   setSuccess(true);
 }catch(err)
 {

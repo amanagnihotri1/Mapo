@@ -17,7 +17,7 @@ const handleSubmit= async(e)=>
     };
 try
 {
- const res=await axios.post("/user/login",user);
+ const res=await axios.post("/api/user/login",user);
  myStorage.setItem("user",res.data.username);
  setUser(res.data.username);
  setLogin(false);
