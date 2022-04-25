@@ -25,6 +25,6 @@ jobs:
         with:
           context: backend
           file: backend/Dockerfile
-          platforms: linux/arm64/v8,linux/amd64
+          platforms: linux/arm64/v8,linux/amd64,linux/arm/v7
           push: true
           tags: 4m4n4gnihotri/mapo:backend
