@@ -20,6 +20,10 @@ mongoose.connect(process.env.MONGO_URL,{useNewUrlParser:true},(err)=>
 //accessing routes
 app.use("/api/user",userRoute);
 app.use("/api/pins",pinRoute);
+app.get("/",(req,res)=>
+{
+    res.send("Server Has Been Started")
+})
 app.listen(8800,()=>
 {
     console.log("hurray,server started");
